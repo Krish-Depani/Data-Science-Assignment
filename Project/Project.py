@@ -57,9 +57,9 @@ print("\n 99% of people have", nn_per_kills, "kills")
 #   QUESTION-6
 #   The most kills ever recorded are how much?
 
-#
+# getting the most kills.
 most_kill = data["kills"].max()
-#
+# printing the most kills.
 print("\n The most kill ever recorded are :", most_kill)
 
 ###############################################################################################################
@@ -126,9 +126,9 @@ plt.show()
 #   Pairplot the dataframe. Comment on kills vs damage dealt, Comment on maxPlace vs numGroups.
 
 # plotting the dataframe.
-
+sb.pairplot(data)
 # displaying the plot.
-
+plt.show()
 # printing the comments on kills vs damage dealt.
 print("\n The relation between kills vs damage dealt is directly proportional")
 # printing the comments on maxPlace vs numGroups.
